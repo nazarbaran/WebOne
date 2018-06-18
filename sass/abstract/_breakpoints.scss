@@ -2,6 +2,35 @@
     
 }
 
+@media all and (max-width: 1800px) {
+    .main-button{
+        width: 15% !important;
+    }
+    .services-container-button{
+        width: 31% !important;
+    }
+    .services-container-marketing,
+    .services-container-design,
+    .services-container-development{
+        flex-basis: 33% !important;
+    }
+}
+
+@media all and (max-width: 1650px) {
+    .services-container-button{
+        width: 33% !important;
+    }
+    
+}
+
+@media all and (max-width: 1530px) {
+    .main-button{
+        width: 15% !important;
+    }
+    
+}
+
+
 
 // @media all and (max-width: 599px) { ... }
 // @media all and (max-width: 479px) { ... }

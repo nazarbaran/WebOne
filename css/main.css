@@ -1,3 +1,33 @@
+@media all and (max-width: 1800px) {
+  /* line 6, ../sass/abstract/_breakpoints.scss */
+  .main-button {
+    width: 15% !important;
+  }
+
+  /* line 9, ../sass/abstract/_breakpoints.scss */
+  .services-container-button {
+    width: 31% !important;
+  }
+
+  /* line 12, ../sass/abstract/_breakpoints.scss */
+  .services-container-marketing,
+  .services-container-design,
+  .services-container-development {
+    flex-basis: 33% !important;
+  }
+}
+@media all and (max-width: 1650px) {
+  /* line 20, ../sass/abstract/_breakpoints.scss */
+  .services-container-button {
+    width: 33% !important;
+  }
+}
+@media all and (max-width: 1530px) {
+  /* line 27, ../sass/abstract/_breakpoints.scss */
+  .main-button {
+    width: 15% !important;
+  }
+}
 /* line 1, ../sass/base/_base.scss */
 *,
 *::after,
