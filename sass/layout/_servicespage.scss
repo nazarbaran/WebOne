@@ -1,0 +1,42 @@
+.services{
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-back-black;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding: 5rem 0rem 6rem 6rem;
+        border-radius: 2px;
+        &-design{
+            @include servicesBlock;
+            &-header{
+                @include servicesHeader;
+            }
+            &-content{
+                @include servicesContent;
+            }
+        }
+        &-development{
+            @include servicesBlock;
+            &-header{
+                @include servicesHeader;
+            }
+            &-content{
+                @include servicesContent;
+            }
+        }
+        &-marketing{
+            @include servicesBlock;
+            &-header{
+                @include servicesHeader;
+            }
+            &-content{
+                @include servicesContent;
+            }
+        }
+        &-button{
+            @include servicesButton;
+        }
+    }
+}

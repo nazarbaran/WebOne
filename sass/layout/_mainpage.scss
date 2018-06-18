@@ -1,0 +1,42 @@
+.main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    &-header{
+        font-size: $font-size-m;
+        margin-bottom: auto;
+        padding-left: 7rem;
+    }
+    
+    &-slogan{
+        background-color: $color-back-black;
+        font-size: $font-size-l;
+        color: $color-text-blue;
+        &-upper{
+            padding-left: 7rem;
+        }
+        &-lower{
+            padding-left: 7rem;
+        }
+    }
+
+    &-button{
+        margin-top: auto;
+        margin-bottom: 10rem;
+        margin-left: 7rem;
+        background-color: $color-back-black;
+        width: 13%;
+        padding: 1.3rem 2.2rem;
+        text-align: center;
+        border-radius: 5px;
+        &-btn{
+            text-decoration: none;
+            color: $color-text-white;
+            text-transform: lowercase;
+            font-weight: 300;
+            font-size: $font-size-m;
+        }
+    }
+}

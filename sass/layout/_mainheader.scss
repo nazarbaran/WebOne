@@ -1,0 +1,31 @@
+.header{
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    &-logo{
+        margin-left: 7rem;
+        img{
+            height: 3.2rem;
+        }
+    }
+
+    &-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 18%;
+        margin-left: 11.5rem;
+    }
+
+    &-lang{
+        display: flex;
+        margin-right: 7rem;
+        margin-left: auto;
+        &-dash{
+            font-weight: 400;
+        }
+        &-eng{
+            font-weight: 400;
+        }
+    }
+}

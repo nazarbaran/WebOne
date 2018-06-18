@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    align-items: center;
+    &-explore{
+        padding-left: 7rem;
+        &-link{
+            color: $color-text-black;
+            text-decoration: none;
+        }
+    }
+    &-social{
+        margin-left: auto;
+        margin-right: 7rem;
+        &-facebook{
+            color: $color-text-black;
+            text-decoration: none;
+            margin-right: 7rem;
+        }
+        &-instagram{
+            color: $color-text-black;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin servicesBlock {
+    flex-direction: column;
+    flex-basis: 25%;
+    font-weight: 400;
+}
+
+@mixin servicesHeader{
+    color: $color-text-blue;
+    font-size: $font-size-services-l;
+    margin-bottom: 4.5rem;
+}
+
+@mixin servicesContent {
+    color: $color-text-white;
+    font-size: $font-size-services-m;
+        &:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+}
+
+@mixin servicesButton {
+    display: block;
+    background-color: $color-back-white;
+    border-radius: 2px;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: $color-text-black;
+    margin-top: 4.4rem;
+    width: 27%;
+}
+
+
+

@@ -1,0 +1,256 @@
+/* line 1, ../sass/base/_base.scss */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* line 9, ../sass/base/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 13, ../sass/base/_base.scss */
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* line 1, ../sass/base/_typography.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* line 1, ../sass/layout/_mainheader.scss */
+.header {
+  height: 16vh;
+  display: flex;
+  align-items: center;
+}
+/* line 5, ../sass/layout/_mainheader.scss */
+.header-logo {
+  margin-left: 7rem;
+}
+/* line 7, ../sass/layout/_mainheader.scss */
+.header-logo img {
+  height: 3.2rem;
+}
+/* line 12, ../sass/layout/_mainheader.scss */
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 18%;
+  margin-left: 11.5rem;
+}
+/* line 20, ../sass/layout/_mainheader.scss */
+.header-lang {
+  display: flex;
+  margin-right: 7rem;
+  margin-left: auto;
+}
+/* line 24, ../sass/layout/_mainheader.scss */
+.header-lang-dash {
+  font-weight: 400;
+}
+/* line 27, ../sass/layout/_mainheader.scss */
+.header-lang-eng {
+  font-weight: 400;
+}
+
+/* line 1, ../sass/layout/_mainpage.scss */
+.main {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+/* line 7, ../sass/layout/_mainpage.scss */
+.main-header {
+  font-size: 3.7rem;
+  margin-bottom: auto;
+  padding-left: 7rem;
+}
+/* line 13, ../sass/layout/_mainpage.scss */
+.main-slogan {
+  background-color: #050505;
+  font-size: 7.2rem;
+  color: #09fdf4;
+}
+/* line 17, ../sass/layout/_mainpage.scss */
+.main-slogan-upper {
+  padding-left: 7rem;
+}
+/* line 20, ../sass/layout/_mainpage.scss */
+.main-slogan-lower {
+  padding-left: 7rem;
+}
+/* line 25, ../sass/layout/_mainpage.scss */
+.main-button {
+  margin-top: auto;
+  margin-bottom: 10rem;
+  margin-left: 7rem;
+  background-color: #050505;
+  width: 13%;
+  padding: 1.3rem 2.2rem;
+  text-align: center;
+  border-radius: 5px;
+}
+/* line 34, ../sass/layout/_mainpage.scss */
+.main-button-btn {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: lowercase;
+  font-weight: 300;
+  font-size: 3.7rem;
+}
+
+/* line 2, ../sass/layout/_servicespage.scss */
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #050505;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  padding: 5rem 0rem 6rem 6rem;
+  border-radius: 2px;
+}
+/* line 11, ../sass/layout/_servicespage.scss */
+.services-container-design {
+  flex-direction: column;
+  flex-basis: 25%;
+  font-weight: 400;
+}
+/* line 13, ../sass/layout/_servicespage.scss */
+.services-container-design-header {
+  color: #09fdf4;
+  font-size: 4rem;
+  margin-bottom: 4.5rem;
+}
+/* line 16, ../sass/layout/_servicespage.scss */
+.services-container-design-content {
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+/* line 24, ../sass/abstract/_mixins.scss */
+.services-container-design-content:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+/* line 20, ../sass/layout/_servicespage.scss */
+.services-container-development {
+  flex-direction: column;
+  flex-basis: 25%;
+  font-weight: 400;
+}
+/* line 22, ../sass/layout/_servicespage.scss */
+.services-container-development-header {
+  color: #09fdf4;
+  font-size: 4rem;
+  margin-bottom: 4.5rem;
+}
+/* line 25, ../sass/layout/_servicespage.scss */
+.services-container-development-content {
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+/* line 24, ../sass/abstract/_mixins.scss */
+.services-container-development-content:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+/* line 29, ../sass/layout/_servicespage.scss */
+.services-container-marketing {
+  flex-direction: column;
+  flex-basis: 25%;
+  font-weight: 400;
+}
+/* line 31, ../sass/layout/_servicespage.scss */
+.services-container-marketing-header {
+  color: #09fdf4;
+  font-size: 4rem;
+  margin-bottom: 4.5rem;
+}
+/* line 34, ../sass/layout/_servicespage.scss */
+.services-container-marketing-content {
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+/* line 24, ../sass/abstract/_mixins.scss */
+.services-container-marketing-content:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+/* line 38, ../sass/layout/_servicespage.scss */
+.services-container-button {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 4.4rem;
+  width: 27%;
+}
+
+/* line 1, ../sass/layout/_servicesfooter.scss */
+.services-footer {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+/* line 6, ../sass/layout/_servicesfooter.scss */
+.services-footer-write {
+  margin-left: 7rem;
+}
+/* line 8, ../sass/layout/_servicesfooter.scss */
+.services-footer-write-link {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+/* line 15, ../sass/layout/_servicesfooter.scss */
+.services-footer-info {
+  margin-right: 7rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #030303;
+}
+
+/* line 1, ../sass/layout/_mainfooter.scss */
+.footer {
+  display: flex;
+  align-items: center;
+}
+/* line 4, ../sass/layout/_mainfooter.scss */
+.footer-explore {
+  padding-left: 7rem;
+}
+/* line 6, ../sass/layout/_mainfooter.scss */
+.footer-explore-link {
+  color: #000000;
+  text-decoration: none;
+}
+/* line 11, ../sass/layout/_mainfooter.scss */
+.footer-social {
+  margin-left: auto;
+  margin-right: 7rem;
+}
+/* line 14, ../sass/layout/_mainfooter.scss */
+.footer-social-facebook {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 7rem;
+}
+/* line 19, ../sass/layout/_mainfooter.scss */
+.footer-social-instagram {
+  color: #000000;
+  text-decoration: none;
+}

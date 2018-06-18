@@ -1,0 +1,21 @@
+.services-footer{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    &-write{
+        margin-left: 7rem;
+        &-link{
+            font-size: 2rem;
+            text-decoration: none;
+            color: $color-text-black;
+            font-weight: 400;
+        }
+    }
+    &-info{
+        margin-right: 7rem;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #030303;
+    }
+}
